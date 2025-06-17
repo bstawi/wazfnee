@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /uploads/private/
+
+# Disallow API endpoints if they're in the same domain
+Disallow: /api/
+
+# Allow important pages
+Allow: /jobs.php
+Allow: /seekers.php
+Allow: /blog.php
+Allow: /contact.php
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
